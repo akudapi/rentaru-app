@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    word-wrap: break-word;
+  }
+  
+  .pp img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+  }
+
+  .navigasi ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #111111;
+    height: 60px;
+    background-color: #111111;
+    padding: 5px;
+    color: white;
+}
+
+.navigasi li {
+    float: left;
+}
+
+.navigasi li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navigasi li a:hover {
+    background-color: gray;
+    transition-duration: 1s;
+}
+
+.navigasi-2 ul {
+    list-style-type: none;
+    overflow: hidden;
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+.navigasi-2 li {
+    margin: 8px;
+}
+
+.navigasi-2 li h5 {
+    font-weight: bold;
+}
+
+.navigasi-2 li a:hover {
+    background-color: white;
+    transition-duration: 1s;
+}
+  
+.produk-img img {
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.labelan {
+    margin: 20px 0 5px 50px;
+}
+
+.btn-set {
+    margin: 30px 0 0 120px;
+}
+
+.deskripsi-box {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background-color: #111111;
+}
+
+.deskripsi-sett {
+    margin: 0 30px 0 30px;
+}
+
+.komentar-con {
+    display: flex;
+    justify-content: center;
+}
+
+.komentar {
+    width: 1000px;
+    height: 380px;
+    background-color: #111111;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.title-komentar {
+    background: #454545;
+    border-radius: 5px 5px 0 0;
+}
+
+.title-komentar h2 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btn-sett {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 48px;
+    margin-top: 20px;
+}
+
+.produk-con {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #111111;
+    border-radius: 5px;
+}
+
+.product-space {
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    width: 600px;
+    height: 50px;
+    margin: 0px 0 0 40px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+    padding-left: 5px;
+}
+
+
+.R{
+    margin-top: 40px;
+    margin-left:40px;
+}
+
+.komen-css {
+    border-radius: 5px;
+    margin: 30px 10px 0 10px;
+    padding: 20px;
+    background-color: #111111;
+}
+
+.komen-box {
+    padding-top: 10px;
+}
+
+.komen-user {
+    margin-top: -15px;
+}
+
+.komen-user strong {
+    font-size: 11px;
+}
+
+.komen-isi {
+    word-wrap: break-word;
+}

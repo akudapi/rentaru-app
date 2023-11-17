@@ -1,0 +1,98 @@
+body {
+	margin: 0;
+}
+
+* {
+	margin:0;
+	padding:0;
+	font-family:'Poppins', sans-serif;
+}
+
+/* Background */
+.page-login {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* Kotak Login */
+form {
+	height: 380px;
+	width: 350px;
+	border-radius: 10px;
+	box-shadow: 0 0 2px 2px #d3d3d3;
+	background-color: #111111;
+}
+/* Tulisan diatas 'login' */
+h1 {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 30px;
+}
+/* Isi didalam kotak login */
+.form-group {
+	margin-bottom: 10px;
+}
+/* Label text username dan password */ 
+.form-group label {
+	display: block;
+	padding: 5px;
+	margin-bottom: 8px;
+	margin-left: 35px;
+	font-size: 17px;
+	margin-top: 10px;
+}
+/* Tampilan input control untuk memasukan username dan password */
+.form-group .input-control {
+	padding: 10px 16px;
+	width: 300px;;
+	height: 38px;
+	font-size: 16px;
+	border: 1px solid #ddd;
+	margin-left: 25px;
+	margin-bottom: 7px;
+	background-color: #fff;
+	color: #000;
+}
+/* Input submit login */
+input {
+	width: 300px;
+	height: 35px;
+	margin-left: 25px;
+	background-color: #2E8BC0;
+	color: #fff;
+	border: none;
+	border-radius: 2px;
+	font-size: 15px;
+}
+/* Text */
+h4 {
+	margin-left: 32px;
+	margin-top: 10px;
+    font-size: 18px;
+}
+/* Link regis */
+.btn-space {
+	display: flex;
+	justify-content: center;
+}
+.btn {
+	width: 300px;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+}
+
+.logo img{
+	width: 100px;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+
+.teks h3 {
+	text-align: center;
+	font-size: 15px;
+	margin-top: 10px;
+}

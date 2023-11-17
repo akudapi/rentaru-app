@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .pp img {
+    width: 20px;
+    height: 20px;
+    border-radius: 500px;
+    margin-right: 10px;
+  }
+
+  .navigasi ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #111111;
+    height: 60px;
+    background-color: #111111;
+    padding: 5px;
+    color: white;
+}
+
+.navigasi li {
+    float: left;
+}
+
+.navigasi li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navigasi li a:hover {
+    background-color: gray;
+    transition-duration: 1s;
+}
+
+.navigasi-2 ul {
+    list-style-type: none;
+    overflow: hidden;
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+.navigasi-2 li {
+    margin: 8px;
+}
+
+.navigasi-2 li h5 {
+    font-weight: bold;
+}
+
+.navigasi-2 li a:hover {
+    background-color: white;
+    transition-duration: 1s;
+}
+  
+.produk-img img {
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 5px;
+}

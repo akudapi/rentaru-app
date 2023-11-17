@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-gap {
+    display: flex;
+    gap: 30px;
+}
+
+.icon {
+    width: 20px; 
+}
+
+.tooltips {
+  visibility: hidden;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  right: 125%;
+}
+
+.image-container:hover .tooltips {
+  visibility: visible;
+}
+
+
+#navbar {
+    overflow: hidden;
+    width: 100%;
+    height: 60px;
+    background-color: #111111;
+}
+
+#navbar form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.banner {
+    padding: 30px 30px 0 30px;
+}
+
+.banner img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.text-title {
+    margin: 50px 0 0 50px;
+}
+
+.text-title p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.produk-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #111111 !important;
+    margin: 0 40px 0 40px;
+    padding: 0 10px 0 10px;
+}
+
+.produk-space {
+    margin: 30px 0 30px 0;
+}
+
+.produk-space :hover {
+    border: 1px solid #bbbbbb;
+    background-color: #212529;
+    border-radius: 5px;
+}
+
+.produk-box {
+    background-color: #111115;
+    width: 250px;
+    height: 420px;
+    cursor: pointer;
+}
+
+.produk-box :hover {
+    border-style: none;
+}
+
+.produk-box img {
+    width: 100%;
+    height: 250px;
+}
+
+.produk-box h3 {
+    width: 230px;
+    height: 100px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.produk-box h4 {
+    width: 230px;
+    height: 40px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 40px;
+    padding-top: 30px;
+    background-color: red;
+    background-color: #111111;
+}
+
+.h p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.p p {
+    margin-left: 40px;
+}
+
+.icon-img {
+    margin: 40px 0 40px 40px;
+    display: flex;
+    gap: 30px;
+}
+
+.c {
+    display: flex;
+    justify-content: center;
+}
